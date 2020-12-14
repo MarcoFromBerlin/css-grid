@@ -1,0 +1,15 @@
+{
+  "name": "uib-css-grid-grid",
+  "version": "1.0.0",
+  "description": "Designers use the concept of grid to create beatiful and well organized layouts.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass --source-map dist/css/main.css.map --output-style compressed -w scss -o dist/css -- recursive "
+  },
+  "author": "",
+  "license": "ISC"
+}
